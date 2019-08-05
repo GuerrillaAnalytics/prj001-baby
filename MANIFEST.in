@@ -1,0 +1,7 @@
+recursive-include <PROJECT_NAME> *
+recursive-exclude tests *
+recursive-exclude __pycache__ *
+recursive-exclude <PROJECT_NAME>/__pycache__ *
+recursive-exclude <PROJECT_NAME>.egg-info *
+exclude MANIFEST.in .gitignore setup.cfg
+include <PROJECT_NAME>/config.json
